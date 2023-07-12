@@ -1,0 +1,50 @@
+body {
+  background-color: #b2f9d9;
+  font-weight: bold;
+}
+.inline_list ul,
+.inline_list li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px;
+}
+
+.headings h3 {
+  text-align: center;
+  background-color: #ca003c;
+  color: white;
+  padding: 5px;
+}
+.items li {
+  margin: 15px;
+}
+.old_price {
+  text-decoration: line-through;
+}
+.new_price {
+  text-decoration: underline;
+}
+figure {
+  margin: 50px auto;
+  text-align: center;
+  font-size: 20px;
+  width: 300px;
+  border-radius: 20px 0px 20px 0px;
+  font-family: sans-serif;
+  padding-bottom: 5px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  text-shadow: 0 0 30px gray;
+}
+img {
+  width: 300px;
+}
+#about_image {
+  height: 112px;
+}
+#foods_image {
+  height: 300px;
+}
+#grocery_image {
+  height: 228px;
+}
